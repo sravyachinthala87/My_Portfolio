@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sravya Chinthala - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(to right, oklab(80.877% 0.04308 0.16476), #ffae00);
+      padding: 30px;
+      text-align: center;
+      color: #fff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 4rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    nav a {
+      margin: 0 20px;
+      color: #0072ff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #0072ff;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #921b98;
+      margin-top: 15px;
+      font-size: 1.5rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      padding: 20px;
+    }
+
+    .skill-card {
+      background-color: #f0f4ff;
+      border: 1px solid #cce0ff;
+      border-radius: 10px;
+      padding: 25px;
+      text-align: left;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .skill-card h3 {
+      color: #0059b3;
+      font-size: 1.3rem;
+    }
+
+    .progress-bar {
+      height: 12px;
+      background-color: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      margin: 10px 0;
+    }
+
+    .progress {
+      height: 100%;
+      background-color: #0072ff;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .project-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 25px;
+      background-color: #f9fbff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .project-card h3 {
+      color: #0059b3;
+    }
+
+    .project-card a {
+      color: #0072ff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.95rem;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      font-size: 24px;
+    }
+
+    .socials a[href*="github"] {
+      color: #333;
+    }
+
+    .socials a[href*="linkedin"] {
+      color: #0077b5;
+    }
+
+    .highlight {
+      color: #0072ff;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Sravya Chinthala</h1>
+    <p style="font-size: 1.3rem; font-weight: bold;">B.Tech Computer Science Engineering</p>
+    <p>Final Year Student, <span class="highlight">Seshadri Rao Gudlavalleru Engineering College</span></p>
+    <p><span class="highlight">Frontend Developer</span> | <span class="highlight">Software Engineer</span></p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a final-year <span class="highlight">Computer Science Engineering</span> student at <span class="highlight">Seshadri Rao Gudlavalleru Engineering College</span>, passionate about <span class="highlight">technology-driven innovation</span> and <span class="highlight">creative problem-solving</span>. I focus on <span class="highlight">frontend development</span> and designing <span class="highlight">intuitive web applications</span> that offer seamless user experiences. With a solid academic foundation and hands-on experience in <span class="highlight">modern web technologies</span>, I aim to build scalable and impactful solutions. I believe in <span class="highlight">lifelong learning</span>, <span class="highlight">team collaboration</span>, and adapting to emerging tech.
+    </p>
+    <p class="quote">
+      “Every challenge is an opportunity to grow. With a growth mindset, there are no limits to what you can achieve.”
+    </p>
+  </section>
+
+  <section class="section" id="skills">
+    <h2>Skills & Technologies</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Frontend Development</h3>
+        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        <p>React, HTML, CSS, JavaScript</p>
+      </div>
+      <div class="skill-card">
+        <h3>Backend Development</h3>
+        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+        <p>Node.js, Express, Django</p>
+      </div>
+      <div class="skill-card">
+        <h3>Database Management</h3>
+        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+        <p>MongoDB, Oracle</p>
+      </div>
+      <div class="skill-card">
+        <h3>Programming Languages</h3>
+        <div class="progress-bar"><div class="progress" style="width: 88%;"></div></div>
+        <p>Python, Java, C</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>💰 Personal Budget Tracker</h3>
+        <p>A clean, interactive platform for monitoring and visualizing income and expenses—designed to help users stay financially organized and focused.</p>
+        <a href="https://sravyachinthala87.github.io/track-your-expenses/" target="_blank">Live Demo</a>
+      </div>
+      <div class="project-card">
+        <h3>🔐 Phishing URL Detection</h3>
+        <p>Machine learning–powered system that identifies and flags suspicious URLs in real-time to protect users from cyber threats.</p>
+      </div>
+      <div class="project-card">
+        <h3>🎮 Snake Mania – Arcade Game</h3>
+        <p>A responsive browser-based version of the classic Snake game with smooth controls, modern visuals, and addictive gameplay.</p>
+        <a href="https://sravyachinthala87.github.io/mini_project/" target="_blank">Play Game</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sravyachinthala78@gmail.com" style="color: #0072ff;">sravyachinthala87@gmail.com</a></p>
+    <div class="socials">
+      <a href="https://github.com/sravyachinthala87" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/sravya-chinthala-a099382b4" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Sravya Chinthala | All Rights Reserved
+  </footer>
+</body>
+
+</html>
